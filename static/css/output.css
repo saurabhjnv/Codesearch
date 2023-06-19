@@ -20,8 +20,13 @@ body {
   padding: 50px 100px;
   border: 2px solid black;
   box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+  overflow-y: auto;
+  height: 45vh;
 }
-
+.sad_emoji {
+  display: flex;
+  margin: auto;
+}
 .link-text {
   display: block;
   width: 100%;
